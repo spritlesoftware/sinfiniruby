@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: 
+#preconfigure the client like so
+
+Sinfini.configure do |conf|
+ c.api_key = api_key
+end
+
+# Then you can create a new client without parameters
+@client = Sinfini::RestClient.new
+@client.create("To Mobile number", "Message")
 
 ## Development
 
