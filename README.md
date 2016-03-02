@@ -24,7 +24,7 @@ Or install it yourself as:
 
 TODO: 
 #preconfigure the client like so
-
+```ruby
 Sinfini.configure do |conf|
  c.api_key = api_key
 end
@@ -33,6 +33,7 @@ end
 @client = Sinfini::RestClient.new
 @client.create("To Mobile number", "Message")
 
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
