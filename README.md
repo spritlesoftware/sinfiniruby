@@ -23,8 +23,11 @@ Or install it yourself as:
 ## Usage
 
 TODO: 
-#preconfigure the client like so
+
+
+
 ```ruby
+# Preconfigure the client like so
 Sinfini.configure do |conf|
  c.api_key = api_key
 end
@@ -42,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sinfiniruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/spritlesoftware/sinfiniruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
