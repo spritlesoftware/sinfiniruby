@@ -1,8 +1,6 @@
 # Sinfiniruby
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sinfiniruby`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A very simple library for communicating with the sinfini REST API to send sms
 
 ## Installation
 
@@ -28,6 +26,7 @@ TODO:
 
 ```ruby
 # Preconfigure the client like so
+api_key = "BjdauXXXygd82XXXXXXX"
 Sinfini.configure do |conf|
  c.api_key = api_key
 end
