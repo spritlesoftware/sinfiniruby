@@ -7,3 +7,9 @@
 /pkg/
 /spec/reports/
 /tmp/
+*~
+.*
+pkg/*
+*.gem
+bin
+docs/_build
