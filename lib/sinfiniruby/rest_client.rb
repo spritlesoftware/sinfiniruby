@@ -8,10 +8,7 @@ module Sinfini
     def initialize
        @api_key = Sinfini.api_key
        @host = Sinfini.host
-    end
-
-    def sender
-      'SIDEMO'
+       @sender = Sinfini.sender
     end
 
     def method
@@ -37,7 +34,7 @@ module Sinfini
          method: method,
          api_key: @api_key,
          to: to,
-         sender: sender,
+         sender: @sender,
          message: text,
          format: format 
         }
