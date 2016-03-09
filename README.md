@@ -29,6 +29,7 @@ TODO:
 api_key = "BjdauXXXygd82XXXXXXX"
 Sinfini.configure do |conf|
  c.api_key = api_key
+ c.host = 'alert.xxx.com
 end
 
 # Then you can create a new client without parameters
