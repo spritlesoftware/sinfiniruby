@@ -6,7 +6,7 @@ require 'sinfiniruby/messages.rb'
 module Sinfini
 
   extend SingleForwardable
-   def_delegators :configuration, :api_key
+   def_delegators :configuration, :api_key, :sender, :host
 
   def self.configure(&block)
     yield configuration
@@ -17,7 +17,7 @@ module Sinfini
   end
 
   class Configuration
-    attr_accessor :api_key
+    attr_accessor :api_key, :sender, :host
   end
 
 end

@@ -3,7 +3,7 @@ module Sinfini
 
   class RestClient
 
-    attr_reader :api_key, :host
+    attr_reader :api_key, :host, :sender
     
     def initialize
        @api_key = Sinfini.api_key
