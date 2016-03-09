@@ -7,7 +7,7 @@ module Sinfini
     
     def initialize
        @api_key = Sinfini.api_key
-       @host = 'alerts.sinfini.com'
+       @host = Sinfini.host
     end
 
     def sender
